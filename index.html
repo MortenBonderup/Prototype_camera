@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Photo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Take a Photo</h1>
+        <video id="video" width="640" height="480" autoplay></video>
+        <button id="snap">Take Photo</button>
+        <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+        <div id="photoContainer">
+            <h2>Accepted Photo</h2>
+            <img id="photo" alt="Your photo will appear here">
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
